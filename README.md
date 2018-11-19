@@ -24,7 +24,7 @@ http://127.0.0.1/_query
 
 Response:
 
-"""
+"""  
 ECHO
 
 uid=0(root) gid=0(root) groups=0(root)
